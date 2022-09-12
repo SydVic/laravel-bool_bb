@@ -1,0 +1,30 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Tom Tom
+@import "@tomtom-international/web-sdk-maps";
+
+// Fontawesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+// //foglio stile per i form backend create/edit
+@import "form-backend";
+
+// foglio stile navbar in index messaggi
+@import "apartment-messages-navbar";
+
+// foglio stile delle card appartamento backend
+@import "apartment-card-backend";
+@import "apartment-card-detailed-backend";

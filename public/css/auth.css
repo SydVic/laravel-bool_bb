@@ -1,0 +1,35 @@
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus-visible {
+  border: 1px solid black;
+  outline: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.main-btn {
+  text-align: center;
+  border: 0;
+  text-decoration: none;
+  padding: 0.3rem 1.6rem;
+  background-color: black;
+  color: white;
+}
+
+.main-btn:hover {
+  color: white;
+  box-shadow: 1px 1px 5px #999999;
+}
+
+.main-btn:disabled {
+  opacity: 0.65;
+}
+

@@ -1,0 +1,24 @@
+@import '_variables.scss';
+
+ul{
+  list-style-type: none;
+  margin: 0;
+}
+
+main{
+  padding: $main-padding;
+}
+
+.main-btn{
+  text-align: center;
+  border: 0;
+  text-decoration: none;
+  padding: 0.3rem 1.6rem;
+  background-color: black;
+  color: white;
+
+  &:hover{
+    color: white;
+    box-shadow: 1px 1px 5px #999999;
+  }
+}

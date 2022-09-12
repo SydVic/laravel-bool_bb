@@ -1,0 +1,35 @@
+body {
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  overflow-y: scroll;
+}
+
+body ::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+.row.elements-container {
+  height: calc(100vh - 100px);
+}
+
+.row.elements-container .col-md-9 {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.row.elements-container .col-md-3 {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.row.elements-container .col-md-3 .apartment-list {
+  height: 100%;
+}
+
+.row.elements-container .col-md-3 .apartment-list ul {
+  height: 100%;
+}
+

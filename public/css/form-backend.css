@@ -1,0 +1,26 @@
+div.address-tips {
+  width: 100%;
+  margin-right: 1.5rem;
+  position: absolute;
+  z-index: 2;
+  background-color: #6c757d;
+}
+
+div.address-tips p {
+  cursor: pointer;
+  background-color: rgba(13, 202, 240, 0.1);
+  padding: 0.1rem 0.8rem;
+  margin: 0.2rem 0;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+div.address-tips p:hover {
+  background-color: rgba(13, 110, 253, 0.3);
+}
+
+.extra-service ul {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+

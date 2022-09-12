@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/form-backend.css": "/css/form-backend.css",
+    "/css/apartment-messages-navbar.css": "/css/apartment-messages-navbar.css",
+    "/css/auth.css": "/css/auth.css",
+    "/css/stats.css": "/css/stats.css",
+    "/js/front.js": "/js/front.js",
+    "/js/apartmentFormValidation.js": "/js/apartmentFormValidation.js",
+    "/js/registerFormValidation.js": "/js/registerFormValidation.js",
+    "/js/userApiSearch.js": "/js/userApiSearch.js"
+}
